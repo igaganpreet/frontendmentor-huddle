@@ -1,0 +1,396 @@
+.attribution { font-size: 11px; text-align: center;color:white; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+element.style {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}    
+.color-white{
+    color:white;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}   
+span{
+    font-size: 20px;
+}
+p{ 
+    color: hsl(192, 100%, 9%);
+} 
+
+/* Title Section */
+.title{
+    background-image: url("images/bg-hero-desktop.svg");
+    margin-bottom: 8%;   
+}
+.title-container{
+    padding-top: 5px;
+    padding: 0px 40px;
+}
+.inner-title-container
+{
+    margin-top:85px;
+}
+.logo-image{
+    margin-top: 2%;
+    height: 1.7em;
+    width: 11.3em;
+    margin-top: 40px;  
+}
+.title-btn{
+    margin-top: 2%;
+    border-radius: 22px;
+    background-color: white;
+    border-color: white;
+    border-style: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1.5% 6.5%;
+    font-family: 'Poppins', sans-serif;
+    font-size: smaller;
+    float: right;
+    margin-top: 40px;
+}
+
+.title-heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.mockup-image{
+    height: 88%;
+    width:95%;
+    margin-left: 20px;
+}
+.start-button{
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 35px;
+    padding: 4.5% 17%;
+    border-style: none;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 20%;
+}
+.grow-together{
+    background-color: white;
+}
+
+/* growing-together, your user */
+.similar-container{
+    width: 90%;
+    background-color: white;
+    border-style: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    margin-bottom: 5%;
+}
+.similar-image{
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+}
+.similar-h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 18%;
+    padding:0% 13%;
+    line-height: 1.5;
+}
+.similar-p{ 
+    color: hsl(208, 11%, 55%);
+    padding:0% 21% 0% 13%;
+    margin-bottom: 18%;
+} 
+
+/* flowing conversation */
+.nonsimilar-container{
+    width: 90%;
+    background-color: white;
+    border-style: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    margin-bottom: 5%;
+}
+.nonsimilar-image{
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    margin: 0% 0%;
+    
+}
+.nonsimilar-h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 18%;
+    padding:0% 21%;
+    line-height: 1.5;
+}
+.nonsimilar-p{ 
+    color: hsl(208, 11%, 55%);
+    padding:0% 0% 0% 21%;
+    margin-bottom: 18%;
+} 
+
+/* Contact section */
+.getstarted-container{
+    width: 58%;
+    background-color: white;
+    border-style: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    text-align: center;
+    margin:8% 19% -5% 19%;
+    padding: 1%;
+    position: relative;
+    z-index: 1;
+}
+.dark-container{
+    background-color: hsl(192, 100%, 9%);
+    position: absolute;
+    z-index:0;
+    padding:10% 7% 1% 7%;
+}
+h2{
+    padding-top: 3rem;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+.getstarted-button{
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 25px;
+    padding: 17px 65px;
+    border-style: none;
+    font-size: .9rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 3rem;
+}
+.logo-white{
+    height: 30px;
+    width:180px;
+    margin-bottom: 1.5rem;
+    margin-left: 12px;
+}
+.contact-icon{
+    margin-right:1rem;
+}
+.column{
+    margin-top:3.5rem;
+    padding-left:6rem;   
+}
+.fab{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin:8px;
+}
+.fa-facebook-f{
+    padding:10px 12px;
+}
+.fa-instagram{
+    padding:10px 11px;
+}
+.copyright{
+    text-align: right;
+    font-size: xx-small;
+    margin-top: 2%;
+}
+
+
+
+
+
+@media (max-width:700px) and (min-width:450px){
+   *{  
+        text-align: center;
+        align-self: center;
+        margin:0px;
+    }
+    
+    .logo-image{
+        height: 1em;
+        width: 7.3em;
+    }
+    .title-btn{
+        align-self: left;
+        margin-left:13px;
+    }
+    .title-heading{
+        margin-top: 5%;
+        font-size: 1.6rem;
+        line-height: 2.0rem;
+        margin-bottom: 21px;
+
+    }
+    .mockup-image{
+        height:85%;
+        width:100%;
+    }
+    .similar-h3{
+        padding: 0 9rem;
+        margin-top: 14%;
+        margin-bottom: 6%;
+    }
+    .nonsimilar-h3{
+        padding: 0 5.8rem;
+        margin-top: 14%;
+        margin-bottom: 6%;
+    }
+    .your-users-h3{
+        padding: 0 11rem;
+    }
+
+    .nonsimilar-p{
+        margin-bottom: 5rem;
+        padding: 0 4.5rem;
+    }
+    .similar-p {
+        margin-bottom: 5rem;
+        padding: 0 4.5rem;
+    }
+    .similar-image{
+        width: 25rem;
+        height: 25rem;
+        margin-left: 4rem;
+    }
+    .nonsimilar-image{
+        width: 25rem;
+        height: 25rem;
+    }
+    .similar-div1{
+        display:flex;
+        order:1;
+    }
+    .similar-div2{
+        display:flex;
+        order:0;
+        
+    }
+    .getstarted-container{
+        margin-left: 13%;
+        width: 28rem;
+        padding: 0px 9px;
+    }
+    .column{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 23px;
+    }
+    .logo-white{
+        margin-left: 23px;
+    }
+    .contact-icon{
+        vertical-align: top;
+    }
+    .location-icon{
+        margin-top: -26px;
+    }
+    .contact-p{
+        text-align: left;
+    }
+    .column-3{
+        margin-top: 0px;
+    }
+    .copyright{
+        text-align: center;
+    }
+}   
+
+
+
+@media (max-width:450px){
+    *{
+         text-align: center;
+         align-self: center;
+         margin:0px;
+     }
+     h2{
+         font-size: 1.5rem;
+         padding-top: 1.2rem;
+     }
+     .logo-image{
+         height: 1em;
+         width: 7.3em;
+     }
+     .title-btn{
+         align-self: left;
+         margin-left:13px;
+     }
+     .title-heading{
+         margin-top: 5%;
+         font-size: 1.6rem;
+         line-height: 2.5rem;
+     }
+     
+     .mockup-image{
+         height:85%;
+         width:92%;
+     }
+         .similar-div1{
+         display:flex;
+         order:1;
+     }
+     .similar-div2{
+         display:flex;
+         order:0;
+         
+     }
+     .similar-h3{
+         padding: 0% 19%;
+     }
+     .similar-p, .nonsimilar-p{
+         padding: 0% 15%;
+     }
+     .nonsimilar-h3{
+        padding: 0% 20%;   
+     }
+     .your-users-h3{
+        padding: 0% 28%;
+     }
+     .getstarted-container{
+        width: 90%;
+        margin-left: 4.5%;
+        margin-bottom: -50px;
+
+     }
+     .getstarted-button{
+        margin-top: 13px;
+        margin-bottom: 1.2rem;
+        padding: 10px 39px;
+     }
+     .contact-container{
+         margin-top: 100px;
+     }
+     .dark-container{
+         padding-top:100px;
+    }
+    .column{
+        padding-left: 2rem;
+    }
+    .logo-white{
+        margin-left: 17px;
+    }
+    .contact-icon{
+        vertical-align: top;
+    }
+    .location-icon{
+        margin-top: -37px;
+    }
+    .contact-p{
+        text-align: left;
+    }
+    .column-3{
+        margin-top: 0px;
+    }
+    .copyright{
+        text-align: center;
+    }
+ }
